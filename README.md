@@ -7,5 +7,4 @@ Our tool generates automated job ads like [this *(click here to view the job ad)
 
 # Task
 
-Your task is to create a database of background videos that we can use for blue collar job ads like construction, manufacturing, delivery etc. 
-
+Your task is to create a database of background videos that we can use for blue collar job ads like construction, manufacturing, delivery etc.
