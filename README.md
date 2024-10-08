@@ -8,7 +8,7 @@ Our tool automatically generates job ads, like [this one *(click here to view th
 > We aim for the background videos to be as closely related as possible to the job description or job ad.
 
 
-In order to generate the BG videeos, we take job description as an input and generate script content for the specific job ad video using LLMs. The script content is then again used to to generate keyword queries that are used to generate background videos from pexels.com API.
+In order to generate the BG videos, we take job description as an input and generate script content for the specific job ad video using LLMs. The script content is then again used to to generate keyword queries that are used to generate background videos from pexels.com API. The videos are then *cropped and merged* to form the background video for that specific job ad.
 
 ```mermaid 
 flowchart TD
@@ -19,6 +19,16 @@ flowchart TD
     C -->|"Query 3<br/> eg. 'hybrid workplace'"| F[fa:fa-link Video URL 3]
     C -->|Query N| G[fa:fa-link Video URL N]
 ```
+
+# Dataset
+
+You are given a CSV file with following columns:
+
+1. `job_link`: The job link for which we are generating the job ad video background
+2. `pexels_query`: The query that was used to fetch backgoround video from pexels.com
+3. `bg_video_url`: The response for `pexels_query` from pexels.com that will be used as background video.
+4. `is_related`: Empty column that need to be filled by you.
+
 
 # Task
 
