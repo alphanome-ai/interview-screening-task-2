@@ -27,7 +27,7 @@ You are given a [CSV file](./screening_task_data.csv) with following columns:
 1. `job_link`: The job link for which we are generating the job ad video background
 2. `pexels_query`: The query that was used to fetch backgoround video from pexels.com
 3. `bg_video_url`: The response for `pexels_query` from pexels.com that will be used as background video.
-4. `is_related`: Empty column that need to be filled by you.
+4. `is_related`: Empty column that needs to be filled by you.
 
 Each row corresponds to a single video that was fetched from pexels.com.
 
