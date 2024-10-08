@@ -22,7 +22,7 @@ flowchart TD
 
 # Dataset
 
-You are given a CSV file with following columns:
+You are given a [CSV file](./screening_task_data.csv) with following columns:
 
 1. `job_link`: The job link for which we are generating the job ad video background
 2. `pexels_query`: The query that was used to fetch backgoround video from pexels.com
