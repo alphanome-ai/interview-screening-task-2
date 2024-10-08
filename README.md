@@ -29,9 +29,10 @@ You are given a CSV file with following columns:
 3. `bg_video_url`: The response for `pexels_query` from pexels.com that will be used as background video.
 4. `is_related`: Empty column that need to be filled by you.
 
+Each row corresponds to a single video that was fetched from pexels.com.
 
 # Task
 
-Your task is to write an algorithm that provides binary "yes" / "no" value corresponding to each video URL that is being provided by pexels.com.
+Your task is to write an algorithm that provides binary "yes" / "no" value corresponding to each video URL that is being provided by pexels.com. This value must be filled in `is_related` column.
 
 The value must be "yes" if the video is related to job ad in some sense and it should be "no" otherwise. For example, query "enginnering manager" may result in [this video](https://videos.pexels.com/video-files/8488276/8488276-hd_1920_1080_30fps.mp4) which in context of *software engineering job ad* does **NOT** make any sense. In this case, you should output as "no".
