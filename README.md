@@ -36,3 +36,28 @@ Each row corresponds to a single video that was fetched from pexels.com.
 Your task is to write an algorithm that provides binary "yes" / "no" value corresponding to each video URL that is being provided by pexels.com. This value must be filled in `is_related` column.
 
 The value must be "yes" if the video is related to job ad in some sense and it should be "no" otherwise. For example, query "engineering manager" may result in [this video](https://videos.pexels.com/video-files/8488276/8488276-hd_1920_1080_30fps.mp4) which in context of *software engineering job ad* does **NOT** make any sense. In this case, you should output as "no".
+
+
+# Scoring Criteria
+
+You will be scored based on the following:
+
+- Your ability to understand the problem, how you solved the problem or why couldn't you solve the problem. 
+- Accuracy of your algorithm to flag irrelevant videos.
+- Latency of your algorithm (lower the better).
+- Research skills.
+
+## Submission
+
+Send your submission as a compressed ZIP file to rakesh@alphanome.ai and info@alphanome.ai (Please add both the emails).
+
+The ZIP file must contain the following:
+- Source code for the algorithm.
+- CSV file with filled `is_relevant` column.
+- Detailed instructions on how to run the algorithm.
+- Any additional files that you want to add.
+
+---
+
+If you have any questions, write to rakesh@alphanome.ai and / or info@alphanome.ai
+
