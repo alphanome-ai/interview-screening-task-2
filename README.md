@@ -40,11 +40,15 @@ The value must be "yes" if the video is related to job ad in some sense and it s
 
 # Scoring Criteria
 
-You will be scored based on the following:
+> [!IMPORTANT]
+> Your solution should be production ready & must work at scale.
+
+
+You will be scored based on the following: (highest priority first)
 
 - Your ability to understand the problem, how you solve the problem or why couldn't you solve the problem. 
-- Accuracy of your algorithm to flag irrelevant videos.
 - Latency of your algorithm (lower the better).
+- Accuracy of your algorithm to flag irrelevant videos.
 - Research skills.
 
 ## Submission
